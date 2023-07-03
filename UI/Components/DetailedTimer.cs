@@ -318,9 +318,9 @@ namespace LiveSplit.UI.Components
                             - state.Run[state.CurrentSplitIndex - 1 + lastSplitOffset].Comparisons[Comparison][timingMethod];
                 }
 
-                LabelSegment.Text = ComparisonName + ":";
+                //LabelSegment.Text = ComparisonName + ":";
 
-                LabelBest.Text = ComparisonName2 + ":";
+                //LabelBest.Text = ComparisonName2 + ":";
 
                 if (Comparison != "None")
                 {
